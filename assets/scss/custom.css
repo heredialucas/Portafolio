@@ -1,0 +1,43 @@
+body {
+  font-family: "Hammersmith One", "sans-serif";
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ddd;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+hr {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+}
+
+nav {
+  background-color: #bbb;
+}
+
+main section .col-md-3 img, main section col-sm-12 img {
+  height: 350px;
+  border-radius: 25%;
+  border: 3px solid #bbb;
+}
+
+main article .card {
+  padding-left: 0;
+  padding-right: 0;
+  border: 3px solid #bbb;
+}
+
+main article .card img {
+  width: 100%;
+}
+
+main article .card .card-body a {
+  border: 3px solid #bbb;
+}
+/*# sourceMappingURL=custom.css.map */
