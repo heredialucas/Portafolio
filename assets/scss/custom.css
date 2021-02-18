@@ -1,6 +1,5 @@
 body {
   font-family: "Hammersmith One", "sans-serif";
-  width: 75%;
   margin-left: auto;
   margin-right: auto;
   background-color: #ddd;
@@ -39,5 +38,16 @@ main article .card img {
 
 main article .card .card-body a {
   border: 3px solid #bbb;
+}
+
+footer {
+  background-color: #bbb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 /*# sourceMappingURL=custom.css.map */
