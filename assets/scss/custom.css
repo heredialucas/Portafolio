@@ -16,6 +16,15 @@ hr {
   margin-bottom: 5px;
 }
 
+@media only screen and (max-width: 766px) {
+  h1 {
+    font-size: 35px;
+  }
+  h4 {
+    font-size: medium;
+  }
+}
+
 nav {
   background-color: #bbb;
 }
