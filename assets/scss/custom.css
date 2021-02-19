@@ -1,15 +1,15 @@
-body {
+.cuerpo {
   font-family: "Hammersmith One", "sans-serif";
   margin-left: auto;
   margin-right: auto;
   background-color: #ddd;
 }
 
-h1 {
+.cabecera__div--h1 {
   font-size: 50px;
 }
 
-hr {
+.cabecera__div--hr {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
@@ -17,39 +17,45 @@ hr {
 }
 
 @media only screen and (max-width: 766px) {
-  h1 {
+  .cabecera__div--h1 {
     font-size: 35px;
   }
-  h4 {
+  .cabecera__div--h4 {
     font-size: medium;
   }
 }
 
-nav {
+.barra {
   background-color: #bbb;
 }
 
-main section .col-md-3 img, main section col-sm-12 img {
+.centro .centro__seccion .centro__seccion--imagenes .centro__seccion--perfil {
   height: 350px;
   border-radius: 25%;
   border: 3px solid #bbb;
 }
 
-main article .card {
+.centro .centro__articulo .centro__articulo--tarjeta {
   padding-left: 0;
   padding-right: 0;
   border: 3px solid #bbb;
+  background-color: #bbb;
 }
 
-main article .card img {
+.centro .centro__articulo .centro__articulo--tarjeta .centro__seccion--imagen {
   width: 100%;
 }
 
-main article .card .card-body a {
+.centro .centro__articulo .centro__articulo--tarjeta .centro__articulo--tarjeta--div a {
   border: 3px solid #bbb;
 }
 
-footer {
+.centro .centro__formulario .centro__formulario--div .centro__formulario--boton {
+  display: block;
+  width: 100%;
+}
+
+.pie {
   background-color: #bbb;
 }
 

@@ -16,146 +16,149 @@
     
    
 </head>
-<body>
+<body class="cuerpo">
     <!-- CABECERA -->
-    <header  class="container" id="inicio">   
-            <div class="row text-center pt-3">
-                <div class="col" >
-                   <h1 class="pt-4 pb-4">&#60;Heredia Lucas Francisco&#47;&#62;</h1>
+    <header  class="container cabecera" id="inicio">   
+            <div class="row text-center pt-3 cabecera__div">
+                <div class="col cabecera__div--div">
+                   <h1 class="pt-4 pb-4 cabecera__div--h1">&#60;Heredia Lucas Francisco&#47;&#62;</h1>
                 </div>
                 <hr/>  
-                <h4 class="pt-3 pb-3">Pensalo, Planealo y Programalo</h4>            
+                <h4 class="pt-3 pb-3 cabecera__div--h4">Pensalo, Planealo y Programalo</h4>            
             </div>
     </header>
     <!-- NAVEGACION -->
-    <nav class="navbar navbar-expand-md navbar-light sticky-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#inicio" >LOGO PERSONAL</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+    <nav  class="navbar navbar-expand-md navbar-light sticky-top barra">
+        <div class="container-fluid barra__div">
+            <a class="navbar-brand barra__div--a" href="#inicio" >LOGO PERSONAL</a>
+            <button class="navbar-toggler barra__div--boton" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon barra__div--icono"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#inicio">Inicio</a>
+            <div class="collapse navbar-collapse barra__div--div" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 barra__div--ul">
+                <li class="nav-item barra__div--li">
+                  <a class="nav-link barra__div--li--a" aria-current="page" href="#inicio">Inicio</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#acercademi">Acerca de Mi</a>
+                <li class="nav-item barra__div--li">
+                  <a class="nav-link barra__div--li--a" href="#acercademi">Acerca de Mi</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#proyectos">Proyectos</a>
+                <li class="nav-item barra__div--li">
+                  <a class="nav-link barra__div--li--a" href="#proyectos">Proyectos</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#tecnologias">Tecnologias</a>
+                <li class="nav-item barra__div--li">
+                    <a class="nav-link barra__div--li--a" href="#tecnologias">Tecnologias</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contacto">Contacto</a>
+                <li class="nav-item barra__div--li">
+                    <a class="nav-link barra__div--li--a" href="#contacto">Contacto</a>
                 </li>
               </ul>
             </div>
           </div>    
     </nav>
     <!-- CONTENEDOR PRINCIPAL     -->
-    <main class="container">
+    <main class="container centro">
             <!-- DESCRIPCION INICIAL -->
-            <Section class="row justify-content-around pt-5 pb-5">
-              <div class="col-12 mt-5 mb-5 text-center">
-                <h4 id="acercademi">ACERCA DE MI</h4>
-                <hr>
+            <Section class="row justify-content-around pt-5 pb-5 centro__seccion">
+              <div class="col-12 mt-5 mb-5 text-center centro__seccion--titulo">
+                <h4 class="centro__seccion--h4" id="acercademi">ACERCA DE MI</h4>
+                <hr class="centro__seccion--hr">
               </div>  
-                <div class="col-md-3 col-sm-12">
-                    <img class="d-block mx-auto" src="./assets/images/perfil.jpg" alt="Heredia Lucas">
-                </div>
-                <div class="col-md-6 col-sm-12 mt-5 mb-5">
+              <div class="col-md-3 col-sm-12 centro__seccion--imagenes">
+                    <img class="d-block mx-auto centro__seccion--perfil" src="./assets/images/perfil.jpg" alt="Heredia Lucas">
+              </div>
+              <div class="col-md-6 col-sm-12 mt-5 mb-5 centro__seccion--descripcion">
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet quas possimus libero non quidem voluptatem sit soluta quae doloremque quaerat excepturi, reiciendis optio quod qui, sunt ullam sed, tenetur deserunt?
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet quas possimus libero non quidem voluptatem sit soluta quae doloremque quaerat excepturi, reiciendis optio quod qui, sunt ullam sed, tenetur deserunt?</p>    
-                </div>
+              </div>
             </Section>
             <!-- PROYECTOS -->
-            <article class="row">
-                <div class="col-12 mt-5 mb-5 text-center">
-                  <h4 id="proyectos">PROYECTOS</h4>
-                  <hr>
+            <article class="row centro__articulo">
+                <div class="col-12 mt-5 mb-5 text-center centro__articulo--proyecto">
+                  <h4 class="centro__articulo--h4" id="proyectos">PROYECTOS</h4>
+                  <hr/>
                 </div>              
-                      <div class="card col-md col-sm-12 mb-2 m-1">
-                        <img src="./assets/images/proyecto.jpg" class="card-img-top" alt="">
-                        <div class="card-body">
-                          <h5 class="card-title">PROYECTO 1</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="card col-md col-sm-12 mb-2 m-1 centro__articulo--tarjeta">
+                        <img src="./assets/images/proyecto.jpg" class="card-img-top centro__articulo--imagen" alt="">
+                        <div class="card-body centro__articulo--tarjeta--div">
+                          <h5 class="card-title centro__articulo--h5">PROYECTO 1</h5>
+                          <p class="card-text centro__articulo--parrafo">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                           <a href="#" class="btn btn-black">ENLACE</a>
                         </div>
-                      </div>
-                      <div class="card col-md col-sm-12 mb-2 m-1">
-                        <img src="./assets/images/proyecto.jpg" class="card-img-top" alt="">
-                        <div class="card-body">
-                          <h5 class="card-title">PROYECTO 2</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <div class="card col-md col-sm-12 mb-2 m-1 centro__articulo--tarjeta">
+                        <img src="./assets/images/proyecto.jpg" class="card-img-top centro__articulo--imagen" alt="">
+                        <div class="card-body centro__articulo--tarjeta--div">
+                          <h5 class="card-title centro__articulo--h5">PROYECTO 2</h5>
+                          <p class="card-text centro__articulo--parrafo">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                           <a href="#" class="btn btn-black">ENLACE</a>
                         </div>
-                      </div>
-                      <div class="card col-md col-sm-12 mb-2 m-1">
-                        <img src="./assets/images/proyecto.jpg" class="card-img-top" alt="">
-                      <div class="card-body">
-                          <h5 class="card-title">PROYECTO 3</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <div class="card col-md col-sm-12 mb-2 m-1 centro__articulo--tarjeta">
+                        <img src="./assets/images/proyecto.jpg" class="card-img-top centro__articulo--imagen" alt="">
+                      <div class="card-body centro__articulo--tarjeta--div">
+                          <h5 class="card-title centro__articulo--h5">PROYECTO 3</h5>
+                          <p class="card-text centro__articulo--parrafo">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                           <a href="#" class="btn btn-black">ENLACE</a>
                       </div>
                 </div>
             </article>
             <!-- TECNOLOGIAS -->
-            <section class="container">
+            <section class="container centro__seccion">
               <div class="row justify-content-center mt-5 mb-5">
-                    <div class="col-12 mt-5 mb-5 text-center">
-                      <h4 id="tecnologias">TECNOLOGIAS</h4>
+                    <div class="col-12 mt-5 mb-5 text-center centro__seccion--titulo">
+                      <h4 class="centro__seccion--h4" id="tecnologias">TECNOLOGIAS</h4>
                       <hr>
                     </div>
-                    <div class="col-md col-sm-4 col-4">
-                      <img src="./assets/images/iconhtml.svg" alt="">
+                    <div class="col-md col-sm-4 col-4 centro__seccion--imagenes">
+                      <img class="centro__seccion--imagen" src="./assets/images/iconhtml.svg" alt="">
                     </div>
-                    <div class="col-md col-sm-4 col-4">
-                      <img src="./assets/images/iconcss.svg" alt="">
+                    <div class="col-md col-sm-4 col-4 centro__seccion--imagenes">
+                      <img class="centro__seccion--imagen"  src="./assets/images/iconcss.svg" alt="">
                     </div>
-                    <div class="col-md col-sm-4 col-4">
-                      <img src="./assets/images/iconjs.svg" alt="">
+                    <div class="col-md col-sm-4 col-4 centro__seccion--imagenes">
+                      <img class="centro__seccion--imagen" src="./assets/images/iconjs.svg" alt="">
                     </div>
-                    <div class="col-md col-sm-4 col-4">
-                      <img src="./assets/images/icongit.svg" alt="">
+                    <div class="col-md col-sm-4 col-4 centro__seccion--imagenes">
+                      <img class="centro__seccion--imagen" src="./assets/images/icongit.svg" alt="">
                     </div>
-                    <div class="col-md col-sm-4 col-4">
-                      <img src="./assets/images/iconterminal.svg" alt="">
+                    <div class="col-md col-sm-4 col-4 centro__seccion--imagenes">
+                      <img class="centro__seccion--imagen" src="./assets/images/iconterminal.svg" alt="">
                     </div>
-                    <div class="col-md col-sm-4 col-4">
-                      <img src="./assets/images/iconvsc.svg" alt="">
+                    <div class="col-md col-sm-4 col-4 centro__seccion--imagenes">
+                      <img class="centro__seccion--imagen" src="./assets/images/iconvsc.svg" alt="">
                     </div>
                 </div>
             </section>
-            <form action="">
-              <div class="col-12 mt-5 mb-5 text-center">
-                <h4 id="contacto">CONTACTO</h4>
+            <form class="centro__formulario" action="">
+              <div class="col-12 mt-5 mb-5 text-center centro__formulario--titulo">
+                <h4 class="centro__formulario--h4" id="contacto">CONTACTO</h4>
                 <hr>
               </div>
-              <div class="form-floating mb-3">
+              <div class="form-floating mb-3 centro__formulario--div">
                 <input type="name" class="form-control" id="floatingInput" placeholder="name">
                 <label for="floatingInput">Apellido y Nombre</label>
               </div>
-              <div class="form-floating mb-3">
+              <div class="form-floating mb-3 centro__formulario--div">
                 <input type="email" class="form-control" id="floatingInput" placeholder="email">
                 <label for="floatingInput">Email</label>
               </div>
-              <div class="form-floating mb-3">
+              <div class="form-floating mb-3 centro__formulario--div">
                 <input type="tel" class="form-control" id="floatingInput" placeholder="tel">
                 <label for="floatingInput">Número de Tel</label>
               </div>
-              <div class="form-floating mb-3">
+              <div class="form-floating mb-3 centro__formulario--div">
                 <input type="message" class="form-control" id="floatingInput" placeholder="message">
                 <label for="floatingInput">Mensaje</label>
+              </div>
+              <div class="col-12 centro__formulario--div">
+                <button type="submit" class="btn btn-primary mt-3 mb-3 centro__formulario--boton">Enviar</button>
               </div>
             </form>       
     </main>
     <!-- PIE DE PAGINA -->
-    <footer>
-      <div class="col-12 pt-4 pb-4 d-block text-center">
-        <small>Desarrollado y Diseñado por Heredia Lucas. ©2021. Todos los derechos reservados.</small>
+    <footer class="pie">
+      <div class="col-12 pt-4 pb-4 d-block text-center pie__div">
+        <small class="pie__div--small">Desarrollado y Diseñado por Heredia Lucas. ©2021. Todos los derechos reservados.</small>
       </div>
     </footer>
 
