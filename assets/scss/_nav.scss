@@ -1,3 +1,22 @@
+
+
 .barra {
-    background-color: #bbb;
+    background-color: $azul;
+    
+    .barra__div {
+        .barra__div--a {
+            color: $gris;
+        }
+        .barra__div--boton {
+            box-shadow: 0 0 3px $gris;
+            border-color: $gris;
+            color: $gris;
+        }
+        .barra__div--icono {
+            text-decoration-color: $gris;
+        }
+        .barra__div--li--a {
+            color: $gris;
+        }
+    }
 }

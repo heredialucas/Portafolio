@@ -1,10 +1,23 @@
 .centro {
     .centro__seccion {
+        .centro__seccion--h4 {
+            font-size: 2rem;
+            color: $naranja;
+            text-shadow: 0 0 3px $sombra;
+        }
+
+        .centro__seccion--descripcion {
+            background-color: $naranja;
+            border-radius: 25%;
+            color: $gris;
+            box-shadow: 0 0 16px $sombra;
+        }
         .centro__seccion--imagenes{
             .centro__seccion--perfil{                
                 height: 350px;
                 border-radius: 25%;
-                border: 3px solid #bbb;                
+                border: 3px solid $rosa;
+                box-shadow: 0 0 16px $sombra;                
             }
         }
     }
@@ -15,16 +28,22 @@
         .centro__articulo--tarjeta {
             padding-left: 0;
             padding-right: 0;
-            border: 3px solid #bbb;
-            background-color: #bbb;
-            
+            border: 3px solid $naranja;
+            background-color: $naranja;
+        .centro__articulo--h5{
+            color: $gris;
+        }
+        .centro__articulo--parrafo{
+            color: $gris;
+        }
             .centro__seccion--imagen {
                 width: 100%;
             }
 
             .centro__articulo--tarjeta--div {
                 a {
-                    border: 3px solid #bbb;
+                    border: 3px solid $gris;
+                    color: $gris;
                 }
             }
         }

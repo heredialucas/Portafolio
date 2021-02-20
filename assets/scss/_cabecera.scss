@@ -1,5 +1,14 @@
+.cabecera {
+    max-width:100vw;
+    background-image: url(../images/.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .cabecera__div--h1 { 
-    font-size: 50px;
+    font-size: 75px;
+    color: $naranja;
+    text-shadow: 0 0 3px $sombra;
 }
 
 .cabecera__div--hr {
@@ -9,9 +18,15 @@
     margin-bottom: 5px;
 }
 
+.cabecera__div--h4 {
+    color: $naranja;
+    text-shadow: 0 0 1px $sombra;
+}
+
+
 @media only screen and (max-width: 766px) {
     .cabecera__div--h1 {
-        font-size: 35px;
+        font-size: 40px;
     }
      .cabecera__div--h4 {
          font-size:medium;
