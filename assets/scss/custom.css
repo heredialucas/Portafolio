@@ -1,11 +1,8 @@
 .cuerpo {
+  background-color: #D9D9D9;
   font-family: "Hammersmith One", "sans-serif";
   margin-left: auto;
   margin-right: auto;
-}
-
-hr {
-  color: #07889B;
 }
 
 .cabecera {
@@ -22,16 +19,9 @@ hr {
   text-shadow: 0 0 3px #555555;
 }
 
-.cabecera__div--hr {
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 5px;
-}
-
 .cabecera__div--h4 {
   color: #E37222;
-  text-shadow: 0 0 1px #555555;
+  text-shadow: 0 0 2px #555555;
 }
 
 @media only screen and (max-width: 766px) {
@@ -45,15 +35,18 @@ hr {
 
 .barra {
   background-color: #07889B;
+  -webkit-box-shadow: 0 0 16px #555555;
+          box-shadow: 0 0 16px #555555;
 }
 
 .barra .barra__div .barra__div--a {
   color: #D9D9D9;
+  text-shadow: 0 0 10px #555555;
 }
 
 .barra .barra__div .barra__div--boton {
-  -webkit-box-shadow: 0 0 3px #D9D9D9;
-          box-shadow: 0 0 3px #D9D9D9;
+  -webkit-box-shadow: 0 0 3px #555555;
+          box-shadow: 0 0 3px #555555;
   border-color: #D9D9D9;
   color: #D9D9D9;
 }
@@ -65,12 +58,7 @@ hr {
 
 .barra .barra__div .barra__div--li--a {
   color: #D9D9D9;
-}
-
-.centro .centro__seccion .centro__seccion--h4 {
-  font-size: 2rem;
-  color: #E37222;
-  text-shadow: 0 0 3px #555555;
+  text-shadow: 0 0 10px #555555;
 }
 
 .centro .centro__seccion .centro__seccion--descripcion {
@@ -92,30 +80,63 @@ hr {
 .centro .centro__articulo .centro__articulo--tarjeta {
   padding-left: 0;
   padding-right: 0;
-  border: 3px solid #E37222;
   background-color: #E37222;
+  -webkit-box-shadow: 0 0 16px #555555;
+          box-shadow: 0 0 16px #555555;
 }
 
 .centro .centro__articulo .centro__articulo--tarjeta .centro__articulo--h5 {
   color: #D9D9D9;
+  text-shadow: 0 0 19px #555555;
 }
 
 .centro .centro__articulo .centro__articulo--tarjeta .centro__articulo--parrafo {
   color: #D9D9D9;
+  text-shadow: 0 0 19px #555555;
 }
 
-.centro .centro__articulo .centro__articulo--tarjeta .centro__seccion--imagen {
+.centro .centro__articulo .centro__articulo--tarjeta .centro__seccion--imagenes {
+  -webkit-box-shadow: 0 0 10px #555555;
+          box-shadow: 0 0 10px #555555;
   width: 100%;
 }
 
 .centro .centro__articulo .centro__articulo--tarjeta .centro__articulo--tarjeta--div a {
+  display: block;
   border: 3px solid #D9D9D9;
   color: #D9D9D9;
+  text-shadow: 0 0 19px #555555;
+  -webkit-box-shadow: 0 0 10px #555555;
+          box-shadow: 0 0 10px #555555;
+}
+
+.centro .centro__formulario .centro__formulario--div {
+  border-color: #07889B;
+  -webkit-box-shadow: 0 0 10px #555555;
+          box-shadow: 0 0 10px #555555;
+}
+
+.centro .centro__formulario .centro__formulario--div .form-control {
+  border-bottom: #07889B;
 }
 
 .centro .centro__formulario .centro__formulario--div .centro__formulario--boton {
   display: block;
   width: 100%;
+}
+
+.centro__div--titulo .centro__div--h4 {
+  font-size: 2rem;
+  color: #E37222;
+  text-shadow: 0 0 3px #555555;
+}
+
+.centro__div--titulo .centro__div--hr {
+  color: #07889B;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
 }
 
 * {

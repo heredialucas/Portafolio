@@ -1,11 +1,5 @@
 .centro {
     .centro__seccion {
-        .centro__seccion--h4 {
-            font-size: 2rem;
-            color: $naranja;
-            text-shadow: 0 0 3px $sombra;
-        }
-
         .centro__seccion--descripcion {
             background-color: $naranja;
             border-radius: 25%;
@@ -28,22 +22,29 @@
         .centro__articulo--tarjeta {
             padding-left: 0;
             padding-right: 0;
-            border: 3px solid $naranja;
             background-color: $naranja;
+            box-shadow: 0 0 16px $sombra;
+             
         .centro__articulo--h5{
             color: $gris;
+            text-shadow: 0 0 19px $sombra;
         }
         .centro__articulo--parrafo{
             color: $gris;
+            text-shadow: 0 0 19px $sombra;
         }
-            .centro__seccion--imagen {
+            .centro__seccion--imagenes {
+                box-shadow: 0 0 10px $sombra;
                 width: 100%;
             }
 
             .centro__articulo--tarjeta--div {
                 a {
+                    display: block;
                     border: 3px solid $gris;
                     color: $gris;
+                    text-shadow: 0 0 19px $sombra;
+                    box-shadow: 0 0 10px $sombra;
                 }
             }
         }
@@ -53,6 +54,12 @@
 .centro{
     .centro__formulario{
         .centro__formulario--div{
+            border-color: $azul;
+            box-shadow: 0 0 10px $sombra;
+
+            .form-control{
+                border-bottom: $azul;
+            }
             .centro__formulario--boton{
                 display: block;
                 width: 100%;

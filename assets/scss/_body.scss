@@ -6,11 +6,9 @@ $rosa: #EEAA7B;
 $sombra: #555555;
 
 .cuerpo {
+    background-color: $gris;
     font-family: "Hammersmith One", "sans-serif";  
     margin-left: auto;
     margin-right: auto;
 }
 
-hr {
-    color: $azul;
-}
