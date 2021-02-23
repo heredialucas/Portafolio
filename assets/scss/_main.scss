@@ -1,4 +1,6 @@
 .centro {
+    position: relative;
+    z-index: 100;
     .centro__seccion {
         .centro__seccion--descripcion {
             background-color: $naranja;
@@ -16,6 +18,7 @@
         }
     }
 }
+
 
 .centro {
     .centro__articulo {

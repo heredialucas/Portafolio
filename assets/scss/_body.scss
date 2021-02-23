@@ -10,5 +10,46 @@ $sombra: #555555;
     font-family: "Hammersmith One", "sans-serif";  
     margin-left: auto;
     margin-right: auto;
+    position: relative;
 }
 
+.cuerpo::after {
+    content: "";
+    position: absolute;
+    z-index: 50;
+    top: -350px;
+    left: -250px;
+    width: 1000px;
+    height: 1000px;
+    border-radius: 50%;
+    background-color: $rosa;
+    position: fixed;
+    opacity: .4;
+}
+.cuerpo::before {
+    content: "";
+    position: absolute;
+    z-index: 50;
+    top: 350px;
+    right: -20px;
+    width: 1000px;
+    height: 1000px;
+    border-radius: 50%;
+    background-color: $rosa;
+    position: fixed;
+    opacity: .4;
+}
+
+@media screen and (max-width: 765px){
+   .cuerpo::after{
+    width: 700px;
+    height: 700px;
+   }
+}
+@media screen and (max-width: 765px){
+   .cuerpo::before{
+    width: 700px;
+    height: 700px;
+    right: -220px;
+   }
+}
