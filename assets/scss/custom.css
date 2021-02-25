@@ -119,13 +119,14 @@
   background-color: #07889B;
   -webkit-box-shadow: 0 0 16px #555555;
           box-shadow: 0 0 16px #555555;
-  -webkit-animation: explocion2 1s 3s both;
-          animation: explocion2 1s 3s both;
+  -webkit-animation: explocion2 3s 3s both;
+          animation: explocion2 3s 3s both;
 }
 
-.barra .barra__div .barra__div--a {
-  color: #D9D9D9;
-  text-shadow: 0 0 10px #555555;
+.barra .barra__div .barra__div--a--img {
+  width: 80px;
+  -webkit-filter: drop-shadow(0 0 10px #555555);
+          filter: drop-shadow(0 0 10px #555555);
 }
 
 .barra .barra__div .barra__div--boton {
@@ -166,8 +167,8 @@
   border: 3px solid #EEAA7B;
   -webkit-box-shadow: 0 0 16px #555555;
           box-shadow: 0 0 16px #555555;
-  -webkit-animation: explocion2 2s 3s both;
-          animation: explocion2 2s 3s both;
+  -webkit-animation: explocion3 2s 3s both;
+          animation: explocion3 2s 3s both;
 }
 
 .centro .centro__seccion .centro__seccion--imagenes {

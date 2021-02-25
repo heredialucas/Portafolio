@@ -1,13 +1,11 @@
-
-
 .barra {
     background-color: $azul;
     box-shadow: 0 0 16px $sombra;
-    animation: explocion2 1s 3s both;
+    animation: explocion2 3s 3s both;
     .barra__div {
-        .barra__div--a {
-            color: $gris;
-            text-shadow: 0 0 10px $sombra;
+        .barra__div--a--img {
+            width: 80px;
+            filter: drop-shadow(0 0 10px $sombra);
         }
         .barra__div--boton {
             box-shadow: 0 0 3px $sombra;
