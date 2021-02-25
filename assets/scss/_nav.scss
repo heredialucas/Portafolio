@@ -3,6 +3,7 @@
 .barra {
     background-color: $azul;
     box-shadow: 0 0 16px $sombra;
+    animation: explocion2 1s 3s both;
     .barra__div {
         .barra__div--a {
             color: $gris;

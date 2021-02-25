@@ -4,6 +4,8 @@ $celeste: #66B9BF;
 $gris: #D9D9D9;
 $rosa: #EEAA7B;
 $sombra: #555555;
+$explocion1: explocion1;
+$explocion2: explocion2;
 
 .cuerpo {
     background-color: $gris;
@@ -22,7 +24,7 @@ $sombra: #555555;
     width: 1000px;
     height: 1000px;
     border-radius: 50%;
-    background-color: $rosa;
+    background-color: $celeste;
     position: fixed;
     opacity: .4;
 }
@@ -35,7 +37,7 @@ $sombra: #555555;
     width: 1000px;
     height: 1000px;
     border-radius: 50%;
-    background-color: $rosa;
+    background-color: $celeste;
     position: fixed;
     opacity: .4;
 }
