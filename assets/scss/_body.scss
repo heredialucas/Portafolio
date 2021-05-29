@@ -44,6 +44,13 @@ $explocion2: explocion2;
 
 
 @media screen and (max-width: 765px){
+   .barra {
+       width: 130px;
+       border-radius: 0px 0px 23px 0px;
+   }
+}
+
+@media screen and (max-width: 765px){
    .cuerpo::after{
     width: 700px;
     height: 700px;
