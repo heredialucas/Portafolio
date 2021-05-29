@@ -45,9 +45,14 @@ $explocion2: explocion2;
 
 @media screen and (max-width: 765px){
    .barra {
-       width: 130px;
+       width: 140px;
        border-radius: 0px 0px 23px 0px;
-   }
+       .barra__div{
+           .barra__div--a{
+            padding-bottom: 15px;
+           }
+       }
+    }
 }
 
 @media screen and (max-width: 765px){

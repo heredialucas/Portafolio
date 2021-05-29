@@ -2,14 +2,14 @@ document.addEventListener('DOMContentLoaded', function (){
 
     const navBtn = document.getElementById('navbarSupportedContent');
     const navHide = () => document.getElementById('navbarSupportedContent').classList.remove('show');
-    const navMin = () => document.querySelector('.navbar').style.width = '130px';
-    const navRadius = () => document.querySelector('.navbar').style.borderRadius = '0px 0px 23px 0px';
+    // const navMin = () => document.querySelector('.navbar').style.width = '130px';
+    // const navRadius = () => document.querySelector('.navbar').style.borderRadius = '0px 0px 23px 0px';
     navBtn.addEventListener ('click', (e) => {
             
-        if(e.target.classList.contains('nav-link') && window.matchMedia('(min-width: 767)').matches) {
+        if(e.target.classList.contains('nav-link')) {
             navHide();
-            navMin();
-            navRadius();
+            // navMin();
+            // navRadius();
         }
     });
     
