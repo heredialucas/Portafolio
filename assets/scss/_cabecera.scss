@@ -3,14 +3,20 @@
     z-index: 200;
 }
 .cabecera__div--h1 { 
-    font-size: 75px;
+    font-size: 50px;
     color: $naranja;
     text-shadow: 0 0 3px $sombra;
     animation: apertura 2s both;
+    #letra8, #letra14 {
+        color: $azul;
+        text-shadow: 1px 1px 3px $sombra;
+    } 
 }
 
 .cabecera__div--h1--p1{
     animation: barras1 1s 3s both;
+    color: $azul;
+    text-shadow: 1px 1px 3px $sombra;
 }
 .cabecera__div--h1--p2{
     animation: barras2 1s 2s both;
@@ -44,7 +50,7 @@
 
 @media only screen and (max-width: 766px) {
     .cabecera__div--h1 {
-        font-size: 40px;
+        font-size: 30px;
     }
     .cabecera__div--h4 {
         font-size:medium;
