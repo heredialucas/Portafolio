@@ -178,6 +178,11 @@
           animation: explocion1 2s 3s both;
 }
 
+.centro .centro__seccion .centro__seccion--imagenes:hover {
+  -webkit-transform: translateY(1rem);
+          transform: translateY(1rem);
+}
+
 .centro .centro__articulo .centro__articulo--tarjeta {
   padding-left: 0;
   padding-right: 0;
@@ -245,11 +250,18 @@
 }
 
 .centro__div--titulo .centro__div--h4 {
+  padding: 0 0;
   font-size: 2rem;
   color: #E37222;
   text-shadow: 0 0 3px #555555;
   -webkit-animation: explocion1 2s 3s both;
           animation: explocion1 2s 3s both;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.centro__div--titulo .centro__div--h4:hover {
+  font-size: 2.5rem;
 }
 
 .centro__div--titulo .centro__div--hr {

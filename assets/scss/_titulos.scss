@@ -1,11 +1,13 @@
 .centro__div--titulo {
         .centro__div--h4 {
+            padding: 0 0;
             font-size: 2rem;
             color: $naranja;
             text-shadow: 0 0 3px $sombra;
+            &:hover {font-size: 2.5rem;}
             animation: explocion1 2s 3s both;
+            transition: 1s;
         }
-
         .centro__div--hr {
             color: $azul;
             width: 80%;

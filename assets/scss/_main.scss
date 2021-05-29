@@ -21,8 +21,7 @@
         .centro__seccion--imagenes{
             filter: drop-shadow(0 0 10px $sombra);
             animation: explocion1 2s 3s both;
-
-
+            &:hover {transform: translateY(1rem);}
         }
     }
 }
