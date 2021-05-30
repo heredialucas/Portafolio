@@ -7,8 +7,7 @@
             border-radius: 25%;
             color: $gris;
             box-shadow: 0 0 16px $sombra;
-            animation: explocion2 2s 3s both;
-          
+            animation: explocion4 3s 7s both;
         }
 
         .centro__seccion--perfil--foto{                
@@ -16,11 +15,11 @@
                 border-radius: 25%;
                 border: 3px solid $rosa;
                 box-shadow: 0 0 16px $sombra;
-                animation: explocion3 2s 3s both;                    
+                animation: explocion3 2s 5s both;                    
         }
         .centro__seccion--imagenes{
             filter: drop-shadow(0 0 10px $sombra);
-            animation: explocion1 2s 3s both;
+            animation: explocion1 3s 3s both;
             &:hover {transform: translateY(1rem);}
         }
     }
@@ -34,7 +33,7 @@
             padding-right: 0;
             background-color: $naranja;
             box-shadow: 0 0 16px $sombra;
-            animation: explocion3 2s 3s both;
+            animation: explocion2 3s 5s both;
 
         .centro__articulo--h5{
             color: $gris;
@@ -64,7 +63,7 @@
 
 .centro{
     .centro__formulario{
-        animation: explocion2 1s 2s both;
+        animation: explocion2 3s 5s both;
         .centro__formulario--div{
             border-color: $azul;
             box-shadow: 0 0 10px $sombra;

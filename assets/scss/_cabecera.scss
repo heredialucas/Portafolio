@@ -3,26 +3,14 @@
     z-index: 200;
 }
 .cabecera__div--h1 { 
-    font-size: 50px;
+    font-size: 70px;
     color: $naranja;
     text-shadow: 0 0 3px $sombra;
-    animation: apertura 2s both;
-    #letra8, #letra14 {
-        color: $azul;
-        text-shadow: 1px 1px 3px $sombra;
-    } 
+    animation: apertura 1s 2.2s both;
 }
 
 .cabecera__div--h1--p1{
-    animation: barras1 1s 3s both;
-    color: $azul;
     text-shadow: 1px 1px 3px $sombra;
-}
-.cabecera__div--h1--p2{
-    animation: barras2 1s 2s both;
-}
-.cabecera__div--h1--p3{
-    animation: barras2 1s 3s both;
 }
 
 .cabecera__div--h4 {
@@ -32,25 +20,25 @@
 }
 .cabecera__div--h4--1{
     margin: 0 5px;
-    animation: explocion1 1.5s 1s both;
+    animation: explocion1 1.5s 3s both;
 }
 .cabecera__div--h4--2{
     margin: 0 5px;
-    animation: explocion1 1.5s 1.7s both;
+    animation: explocion1 1.5s 3.7s both;
 }
 .cabecera__div--h4--3{
     margin: 0 5px;
-    animation: explocion1 1.5s 2.2s both;
+    animation: explocion1 1.5s 4.2s both;
 }
 .cabecera__div--h4--4{
     margin: 0 5px;
-    animation: explocion1 1.5s 2.8s both;
+    animation: explocion1 1.5s 4.8s both;
 }
 
 
 @media only screen and (max-width: 766px) {
     .cabecera__div--h1 {
-        font-size: 30px;
+        font-size: 40px;
     }
     .cabecera__div--h4 {
         font-size:medium;

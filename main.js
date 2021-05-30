@@ -1,17 +1,21 @@
-document.addEventListener('DOMContentLoaded', function (){
+import NavHide from './assets/components/_navHide.js';
+import Letras from './assets/components/_headerLetras.js'
 
-    const navBtn = document.getElementById('navbarSupportedContent');
-    const navHide = () => document.getElementById('navbarSupportedContent').classList.remove('show');
-    // const navMin = () => document.querySelector('.navbar').style.width = '130px';
-    // const navRadius = () => document.querySelector('.navbar').style.borderRadius = '0px 0px 23px 0px';
-    navBtn.addEventListener ('click', (e) => {
+document.addEventListener('DOMContentLoaded', () => {
+
+        const navHide = new NavHide();
+        const letras = new Letras();
+
+        
+        
+    // const navBtn = document.getElementById('navbarSupportedContent');
+    // const navHide = () => document.getElementById('navbarSupportedContent').classList.remove('show');
+    // navBtn.addEventListener ('click', (e) => {
             
-        if(e.target.classList.contains('nav-link')) {
-            navHide();
-            // navMin();
-            // navRadius();
-        }
-    });
+    //     if(e.target.classList.contains('nav-link')) {
+    //         navHide();
+    //     }
+    // });
     
-    document.body.addEventListener('click', () => navHide());
-})
+    
+});
