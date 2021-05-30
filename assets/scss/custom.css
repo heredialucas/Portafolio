@@ -36,6 +36,8 @@
 
 @media screen and (max-width: 765px) {
   .barra {
+    -webkit-animation: explocion5 3s 5s both;
+            animation: explocion5 3s 5s both;
     width: 105px;
     padding-bottom: 20px;
     border-radius: 0px 0px 23px 0px;
@@ -108,7 +110,7 @@
 
 @media only screen and (max-width: 766px) {
   .cabecera__div--h1 {
-    font-size: 40px;
+    font-size: 50px;
   }
   .cabecera__div--h4 {
     font-size: medium;
@@ -393,6 +395,28 @@
     opacity: 1;
     -webkit-transform: scale(1);
             transform: scale(1);
+  }
+}
+
+@-webkit-keyframes explocion5 {
+  0% {
+    -webkit-transform: translate(-200px);
+            transform: translate(-200px);
+  }
+  100% {
+    -webkit-transform: translate(0px);
+            transform: translate(0px);
+  }
+}
+
+@keyframes explocion5 {
+  0% {
+    -webkit-transform: translate(-200px);
+            transform: translate(-200px);
+  }
+  100% {
+    -webkit-transform: translate(0px);
+            transform: translate(0px);
   }
 }
 
