@@ -1,5 +1,5 @@
-import NavHide from './assets/components/navHide.js';
-import Letras from './assets/components/headerLetras.js';
+import {default as NavHide} from './assets/components/_navHide.js';
+import {default as Letras} from './assets/components/_headerLetras.js';
 
 document.addEventListener('DOMContentLoaded', () => {
 
