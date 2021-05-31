@@ -4,9 +4,12 @@
             font-size: 2rem;
             color: $naranja;
             text-shadow: 0 0 3px $sombra;
-            &:hover {font-size: 2.5rem;}
-            animation: explocion1 2s 3s both;
-            transition: 1s;
+            animation: explocion1 2s 5s both;
+            .expandir {
+                transition: 1s;
+                &:hover {font-size: 2.5rem;}
+
+            }
         }
         .centro__div--hr {
             color: $azul;

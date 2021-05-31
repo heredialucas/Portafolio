@@ -256,13 +256,16 @@
   font-size: 2rem;
   color: #E37222;
   text-shadow: 0 0 3px #555555;
-  -webkit-animation: explocion1 2s 3s both;
-          animation: explocion1 2s 3s both;
+  -webkit-animation: explocion1 2s 5s both;
+          animation: explocion1 2s 5s both;
+}
+
+.centro__div--titulo .centro__div--h4 .expandir {
   -webkit-transition: 1s;
   transition: 1s;
 }
 
-.centro__div--titulo .centro__div--h4:hover {
+.centro__div--titulo .centro__div--h4 .expandir:hover {
   font-size: 2.5rem;
 }
 
