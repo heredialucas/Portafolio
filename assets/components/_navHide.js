@@ -1,4 +1,4 @@
-export default class NavHide {
+class NavHide {
     constructor(){
         this.navBtn = document.getElementById('navbarSupportedContent');
         this.navHide = () => document.getElementById('navbarSupportedContent').classList.remove('show');
@@ -13,3 +13,5 @@ export default class NavHide {
         });
     }
 };
+
+export { NavHide};
