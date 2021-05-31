@@ -1,4 +1,4 @@
-export default class Letras {
+export class Letras {
     constructor() {
         this.letras = document.querySelector('.cabecera__div--h1--p1');
         this.titulos = document.querySelector('.expandir');

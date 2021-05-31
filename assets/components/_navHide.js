@@ -1,4 +1,4 @@
-export default class NavHide {
+export class NavHide {
     constructor(){
         this.navBtn = document.getElementById('navbarSupportedContent');
         this.navHide = () => document.getElementById('navbarSupportedContent').classList.remove('show');
