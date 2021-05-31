@@ -40,4 +40,4 @@ export default class Letras {
           maquinaEscribir1('Heredia Lucas()', 100, this.letras);
           // maquinaEscribir2('Acerca de Mi', 100, this.titulos);
     }
-}
+};
