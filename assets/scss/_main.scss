@@ -3,19 +3,24 @@
     z-index: 100;
     .centro__seccion {
         .centro__seccion--descripcion {
+            padding: 0 50px;
             background-color: $naranja;
-            border-radius: 25%;
+            border-radius: 20%;
             color: $gris;
             box-shadow: 0 0 16px $sombra;
-            animation: explocion4 3s 7s both;
+            animation: explocion5 3s 6s both;
+            transition: 1s;
+            &:hover {font-size:110% ;}
         }
 
         .centro__seccion--perfil--foto{                
                 height: 350px;
-                border-radius: 25%;
-                border: 3px solid $rosa;
+                border-radius: 0px 40px 0px 37px;
+                border: 2px solid rgba(255, 255, 255, 0.904);
                 box-shadow: 0 0 16px $sombra;
-                animation: explocion3 2s 5s both;                    
+                animation: explocion3 2s 5s both;
+                transition: 1s;
+                &:hover {font-size:110% ;}                    
         }
         .centro__seccion--imagenes{
             filter: drop-shadow(0 0 10px $sombra);
@@ -34,6 +39,8 @@
             background-color: $naranja;
             box-shadow: 0 0 16px $sombra;
             animation: explocion2 3s 5s both;
+            border: 2px solid rgba(255, 255, 255, 0.904);
+
 
         .centro__articulo--h5{
             color: $gris;
