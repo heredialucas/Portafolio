@@ -25,7 +25,6 @@
         .centro__seccion--imagenes{
             filter: drop-shadow(0 0 10px $sombra);
             animation: explocion1 3s 3s both;
-            &:hover {transform: translateY(1rem);}
         }
     }
 }
@@ -50,11 +49,14 @@
             color: $gris;
             text-shadow: 0 0 19px $sombra;
         }
-            .centro__seccion--imagenes {
+            
+        
+        .centro__seccion--imagenes {
                 box-shadow: 0 0 10px $sombra;
                 width: 100%;
-            }
-
+                
+            }   
+            
             .centro__articulo--tarjeta--div {
                 a {
                     display: block;
@@ -63,6 +65,15 @@
                     text-shadow: 0 0 19px $sombra;
                     box-shadow: 0 0 10px $sombra;
                 }
+            }
+        }
+    }
+
+    .centro__seccion{
+        .centro__seccion--imagenes{
+            .centro__seccion--imagen{
+                transition: 1s;
+                &:hover {font-size:110% ;}
             }
         }
     }
