@@ -32,13 +32,16 @@
 
 .centro {
     .centro__articulo {
+ 
         .centro__articulo--tarjeta {
+            
             padding-left: 0;
             padding-right: 0;
             background-color: $naranja;
             box-shadow: 0 0 16px $sombra;
             animation: explocion2 3s 5s both;
             border: 2px solid rgba(255, 255, 255, 0.904);
+            
 
 
         .centro__articulo--h5{
