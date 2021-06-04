@@ -32,45 +32,19 @@
 
 .centro {
     .centro__articulo {
- 
-        .centro__articulo--tarjeta {
-            
-            padding-left: 0;
-            padding-right: 0;
-            background-color: $naranja;
-            box-shadow: 0 0 16px $sombra;
-            animation: explocion2 3s 5s both;
-            border: 2px solid rgba(255, 255, 255, 0.904);
-            
+        .carousel{
+            .carousel-inner{
+            img{
+                border-radius: 8px;
+                border: 2px solid whitesmoke;
 
-
-        .centro__articulo--h5{
-            color: $gris;
-            text-shadow: 0 0 19px $sombra;
-        }
-        .centro__articulo--parrafo{
-            color: $gris;
-            text-shadow: 0 0 19px $sombra;
-        }
-            
-        
-        .centro__seccion--imagenes {
-                box-shadow: 0 0 10px $sombra;
-                width: 100%;
-                
-            }   
-            
-            .centro__articulo--tarjeta--div {
-                a {
-                    display: block;
-                    border: 3px solid $gris;
-                    color: $gris;
-                    text-shadow: 0 0 19px $sombra;
-                    box-shadow: 0 0 10px $sombra;
-                }
             }
+            
+            }
+
         }
-    }
+      }   
+            
 
     .centro__seccion{
         .centro__seccion--imagenes{
