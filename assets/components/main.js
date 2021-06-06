@@ -19,7 +19,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     
     
-    letras = document.querySelector('.cabecera__div--h1--p1');
+    
+    letras = document.querySelector('.cabecera__div--h1');
     description = document.querySelector('.descriptionText');
     titulos = document.querySelector('.expandir');
     
@@ -38,8 +39,23 @@ document.addEventListener('DOMContentLoaded', () => {
     
     
     document.body.addEventListener('click', () => navHide());
-    maquinaEscribir1('Heredia Lucas()', 100,letras);
+    
+    
+    
+
+    maquinaEscribir1('Heredia Lucas()', 100, letras);
     setTimeout(() => {
         maquinaEscribir1('¡Hola! Bienvenido/a a mi pequeño Portafolio. Me llamo Lucas y soy Desarrollador de Software. Espero sea de tu agrado y disfrutes navegándolo. ¡Un Saludo y espero nos veamos pronto!', 50, description)}, 7000);
     
-});
+
+        // // ANIMACIONES
+        // let tl = gsap.timeline({ repeat: 1, yoyo: true})
+        
+        // tl.from('#letra1',{
+        //     fontSize: 100,
+        //     duration: 1,
+        //     delay: 3,
+        //     repeat: 2,
+        //     yoyo: true,
+        // });
+    });

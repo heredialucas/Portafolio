@@ -33,11 +33,12 @@
 .centro {
     .centro__articulo {
         .carousel{
+            animation: explocion2 3s 5s both;
             .carousel-inner{
             img{
                 border-radius: 8px;
                 border: 2px solid whitesmoke;
-
+                
             }
             
             }

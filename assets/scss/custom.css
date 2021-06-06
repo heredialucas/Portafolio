@@ -73,12 +73,6 @@
   text-shadow: 0 0 3px #555555;
   -webkit-animation: apertura 1s 2.2s both;
           animation: apertura 1s 2.2s both;
-  -webkit-transition: 1s;
-  transition: 1s;
-}
-
-.cabecera__div--h1:hover {
-  font-size: 80px;
 }
 
 .cabecera__div--h1--p1 {
@@ -197,6 +191,11 @@
           filter: drop-shadow(0 0 10px #555555);
   -webkit-animation: explocion1 3s 3s both;
           animation: explocion1 3s 3s both;
+}
+
+.centro .centro__articulo .carousel {
+  -webkit-animation: explocion2 3s 5s both;
+          animation: explocion2 3s 5s both;
 }
 
 .centro .centro__articulo .carousel .carousel-inner img {
