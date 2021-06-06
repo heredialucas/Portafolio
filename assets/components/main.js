@@ -49,7 +49,6 @@ document.addEventListener('DOMContentLoaded', () => {
     
 
         // // ANIMACIONES
-        // let tl = gsap.timeline({ repeat: 1, yoyo: true})
         
         // tl.from('#letra1',{
         //     fontSize: 100,
