@@ -198,24 +198,38 @@
           animation: explocion2 3s 5s both;
 }
 
-.centro .centro__formulario {
-  -webkit-animation: explocion2 3s 5s both;
-          animation: explocion2 3s 5s both;
+.centro .centro__articulo .carousel-caption {
+  background-color: #07889B;
+  border-radius: 0px 40px 0px 37px;
 }
 
-.centro .centro__formulario .centro__formulario--div {
-  border-color: #07889B;
-  -webkit-box-shadow: 0 0 10px #555555;
-          box-shadow: 0 0 10px #555555;
+.centro .centro__articulo .centro__articulo--h5 {
+  color: white;
 }
 
-.centro .centro__formulario .centro__formulario--div .form-control {
-  border-bottom: #07889B;
+.centro .centro__articulo .centro__articulo--p {
+  color: white;
 }
 
-.centro .centro__formulario .centro__formulario--div .centro__formulario--boton {
-  display: block;
-  width: 100%;
+.centro .centro__seccion .centro__seccion--div {
+  height: 25vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.centro .centro__seccion .centro__seccion--div .centro__seccion--div--img {
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: explocion1 3s 3s both;
+          animation: explocion1 3s 3s both;
 }
 
 .pie {
