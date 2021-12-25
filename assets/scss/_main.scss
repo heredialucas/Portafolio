@@ -2,14 +2,13 @@
   position: relative;
   z-index: 100;
   .centro__seccion {
-
     .centro__seccion--descripcion {
       position: relative;
       z-index: 1000;
       padding: 0px;
       background-color: $azul;
       border-radius: 5px;
-      border: 7px double rgb(233, 233, 233) ;
+      border: 7px double rgb(233, 233, 233);
       color: $gris;
       // box-shadow: 0 0 16px $sombra;
       animation: aparecer 3s 8s both;
@@ -34,47 +33,58 @@
       filter: drop-shadow(0 0 10px $sombra);
       animation: explosion1 3s 7s both;
 
-    //   .centro__seccion--imagen {
+      //   .centro__seccion--imagen {
 
-    //   }
+      //   }
     }
   }
 }
-  .centro {
-    .centro__articulo {
-      .centro__articulo--proyectos{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        animation: aparecer 5s 8s both;
+.centro {
+  .centro__articulo {
+    .centro__articulo--proyectos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      animation: aparecer 5s 8s both;
 
-
-        .centro__articulo--proyectos--div{
-          margin: 15px;
-          width: 200px;
-          height: 200px;
-          border-radius: 5px;
-          box-shadow: 0 0 10px  $sombra;
-
-        }
-      }
-      }
-    }
-  
-    .centro{
-      .centro__seccion{
-        .centro__seccion--div{
-          height: 25vh;
-          display: flex;
-          justify-content: center;
-          align-items: flex-end ;
-          .centro__seccion--div--img{
-            margin: 10px;
-            width: 50px;
-            height: 50px;
-            animation: explosion1 3s 3s both;
+      .centro__articulo--proyectos--div {
+        position: relative;
+        margin: 15px;
+        width: 300px;
+        height: 160px;
+        border: 2px solid $azul;
+        border-radius: 5px;
+        box-shadow: 0 0 10px $sombra;
+        overflow: hidden;
+        a {
+          img {
+            width: 300px;
+            object-fit: cover;
+            object-position: center center;
+          }
+          img:hover{
+            transition: .5s;
+            opacity: .3;
           }
         }
       }
     }
+  }
+}
 
+.centro {
+  .centro__seccion {
+    .centro__seccion--div {
+      height: 25vh;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      .centro__seccion--div--img {
+        margin: 10px;
+        width: 50px;
+        height: 50px;
+        animation: explosion1 3s 3s both;
+      }
+    }
+  }
+}

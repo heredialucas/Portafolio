@@ -206,12 +206,29 @@
 }
 
 .centro .centro__articulo .centro__articulo--proyectos .centro__articulo--proyectos--div {
+  position: relative;
   margin: 15px;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 160px;
+  border: 2px solid #07889B;
   border-radius: 5px;
   -webkit-box-shadow: 0 0 10px #555555;
           box-shadow: 0 0 10px #555555;
+  overflow: hidden;
+}
+
+.centro .centro__articulo .centro__articulo--proyectos .centro__articulo--proyectos--div a img {
+  width: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
+}
+
+.centro .centro__articulo .centro__articulo--proyectos .centro__articulo--proyectos--div a img:hover {
+  -webkit-transition: .5s;
+  transition: .5s;
+  opacity: .3;
 }
 
 .centro .centro__seccion .centro__seccion--div {
