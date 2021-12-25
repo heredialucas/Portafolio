@@ -1,9 +1,5 @@
-// import Letras from './_headerLetras.js';
-// import  NavHide from './_navHide.js';
 
 document.addEventListener("DOMContentLoaded", () => {
-  // const letras = new Letras();
-  // const navHide = new NavHide();
 
   const navBtn = document.getElementById("navbarSupportedContent");
   const navHide = () =>
@@ -37,9 +33,9 @@ document.addEventListener("DOMContentLoaded", () => {
   maquinaEscribir1("Heredia Lucas()", 100, letras);
   setTimeout(() => {
     maquinaEscribir1(
-      "¡Hola! Bienvenido/a a mi pequeño Portafolio. Me llamo Lucas y soy Desarrollador de Software. Espero sea de tu agrado y disfrutes navegándolo. ¡Un Saludo y espero nos veamos pronto!",
-      50,
+      "¡Hola! Bienvenido/a a mi Portafolio.",
+      100,
       description
     );
-  }, 7000);
+  }, 8000);
 });

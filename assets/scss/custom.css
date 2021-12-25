@@ -36,8 +36,8 @@
 
 @media screen and (max-width: 765px) {
   .barra {
-    -webkit-animation: explocion5 3s 5s both;
-            animation: explocion5 3s 5s both;
+    -webkit-animation: explosion5 3s 5s both;
+            animation: explosion5 3s 5s both;
     width: 105px;
     padding-bottom: 20px;
     border-radius: 0px 0px 23px 0px;
@@ -86,26 +86,26 @@
 
 .cabecera__div--h4--1 {
   margin: 0 5px;
-  -webkit-animation: explocion1 1.5s 3s both;
-          animation: explocion1 1.5s 3s both;
+  -webkit-animation: explosion1 1.5s 3s both;
+          animation: explosion1 1.5s 3s both;
 }
 
 .cabecera__div--h4--2 {
   margin: 0 5px;
-  -webkit-animation: explocion1 1.5s 3.7s both;
-          animation: explocion1 1.5s 3.7s both;
+  -webkit-animation: explosion1 1.5s 3.7s both;
+          animation: explosion1 1.5s 3.7s both;
 }
 
 .cabecera__div--h4--3 {
   margin: 0 5px;
-  -webkit-animation: explocion1 1.5s 4.2s both;
-          animation: explocion1 1.5s 4.2s both;
+  -webkit-animation: explosion1 1.5s 4.2s both;
+          animation: explosion1 1.5s 4.2s both;
 }
 
 .cabecera__div--h4--4 {
   margin: 0 5px;
-  -webkit-animation: explocion1 1.5s 4.8s both;
-          animation: explocion1 1.5s 4.8s both;
+  -webkit-animation: explosion1 1.5s 4.8s both;
+          animation: explosion1 1.5s 4.8s both;
 }
 
 @media only screen and (max-width: 766px) {
@@ -121,8 +121,8 @@
   background-color: #07889B;
   -webkit-box-shadow: 0 0 16px #555555;
           box-shadow: 0 0 16px #555555;
-  -webkit-animation: explocion2 3s 5s both;
-          animation: explocion2 3s 5s both;
+  -webkit-animation: aparecer 3s 5s both;
+          animation: aparecer 3s 5s both;
 }
 
 .barra .barra__div .barra__div--a--img {
@@ -154,16 +154,15 @@
 }
 
 .centro .centro__seccion .centro__seccion--descripcion {
-  padding: 0 50px;
-  background-color: #E37222;
-  border-radius: 20%;
+  position: relative;
+  z-index: 1000;
+  padding: 0px;
+  background-color: #07889B;
+  border-radius: 5px;
+  border: 7px double #e9e9e9;
   color: #D9D9D9;
-  -webkit-box-shadow: 0 0 16px #555555;
-          box-shadow: 0 0 16px #555555;
-  -webkit-animation: explocion5 3s 6s both;
-          animation: explocion5 3s 6s both;
-  -webkit-transition: 1s;
-  transition: 1s;
+  -webkit-animation: aparecer 3s 8s both;
+          animation: aparecer 3s 8s both;
 }
 
 .centro .centro__seccion .centro__seccion--descripcion:hover {
@@ -172,12 +171,12 @@
 
 .centro .centro__seccion .centro__seccion--perfil--foto {
   height: 350px;
-  border-radius: 0px 40px 0px 37px;
-  border: 2px solid rgba(255, 255, 255, 0.904);
+  background-color: #E37222;
+  border-radius: 50%;
   -webkit-box-shadow: 0 0 16px #555555;
           box-shadow: 0 0 16px #555555;
-  -webkit-animation: explocion3 2s 5s both;
-          animation: explocion3 2s 5s both;
+  -webkit-animation: aparecer 5s 8s both;
+          animation: aparecer 5s 8s both;
   -webkit-transition: 1s;
   transition: 1s;
 }
@@ -189,26 +188,30 @@
 .centro .centro__seccion .centro__seccion--imagenes {
   -webkit-filter: drop-shadow(0 0 10px #555555);
           filter: drop-shadow(0 0 10px #555555);
-  -webkit-animation: explocion1 3s 3s both;
-          animation: explocion1 3s 3s both;
+  -webkit-animation: explosion1 3s 7s both;
+          animation: explosion1 3s 7s both;
 }
 
-.centro .centro__articulo .centro__articulo--div--carrusel {
-  -webkit-animation: explocion2 3s 5s both;
-          animation: explocion2 3s 5s both;
+.centro .centro__articulo .centro__articulo--proyectos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-animation: aparecer 5s 8s both;
+          animation: aparecer 5s 8s both;
 }
 
-.centro .centro__articulo .carousel-caption {
-  background-color: #07889B;
-  border-radius: 0px 40px 0px 37px;
-}
-
-.centro .centro__articulo .centro__articulo--h5 {
-  color: white;
-}
-
-.centro .centro__articulo .centro__articulo--p {
-  color: white;
+.centro .centro__articulo .centro__articulo--proyectos .centro__articulo--proyectos--div {
+  margin: 15px;
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 10px #555555;
+          box-shadow: 0 0 10px #555555;
 }
 
 .centro .centro__seccion .centro__seccion--div {
@@ -228,8 +231,8 @@
   margin: 10px;
   width: 50px;
   height: 50px;
-  -webkit-animation: explocion1 3s 3s both;
-          animation: explocion1 3s 3s both;
+  -webkit-animation: explosion1 3s 3s both;
+          animation: explosion1 3s 3s both;
 }
 
 .pie {
@@ -247,8 +250,8 @@
   font-size: 2rem;
   color: #E37222;
   text-shadow: 0 0 3px #555555;
-  -webkit-animation: explocion1 2s 5s both;
-          animation: explocion1 2s 5s both;
+  -webkit-animation: explosion1 2s 7s both;
+          animation: explosion1 2s 7s both;
 }
 
 .centro__div--titulo .centro__div--h4 .expandir {
@@ -269,7 +272,7 @@
   margin-bottom: 5px;
 }
 
-@-webkit-keyframes explocion1 {
+@-webkit-keyframes explosion1 {
   0% {
     -webkit-transform: scale(0);
             transform: scale(0);
@@ -288,7 +291,7 @@
   }
 }
 
-@keyframes explocion1 {
+@keyframes explosion1 {
   0% {
     -webkit-transform: scale(0);
             transform: scale(0);
@@ -307,7 +310,7 @@
   }
 }
 
-@-webkit-keyframes explocion2 {
+@-webkit-keyframes explosion2 {
   0% {
     opacity: .0;
     -webkit-transform: scaleY(0);
@@ -320,7 +323,7 @@
   }
 }
 
-@keyframes explocion2 {
+@keyframes explosion2 {
   0% {
     opacity: .0;
     -webkit-transform: scaleY(0);
@@ -333,7 +336,7 @@
   }
 }
 
-@-webkit-keyframes explocion5 {
+@-webkit-keyframes explosion5 {
   0% {
     opacity: .0;
     -webkit-transform: scaleX(0);
@@ -346,7 +349,7 @@
   }
 }
 
-@keyframes explocion5 {
+@keyframes explosion5 {
   0% {
     opacity: .0;
     -webkit-transform: scaleX(0);
@@ -359,7 +362,25 @@
   }
 }
 
-@-webkit-keyframes explocion3 {
+@-webkit-keyframes aparecer {
+  0% {
+    opacity: .0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: .0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes explosion3 {
   0% {
     opacity: .0;
     -webkit-transform: scale(0);
@@ -374,7 +395,7 @@
   }
 }
 
-@keyframes explocion3 {
+@keyframes explosion3 {
   0% {
     opacity: .0;
     -webkit-transform: scale(0);
@@ -389,7 +410,7 @@
   }
 }
 
-@-webkit-keyframes explocion4 {
+@-webkit-keyframes explosion4 {
   0% {
     opacity: .0;
     -webkit-transform: scale(0);
@@ -404,7 +425,7 @@
   }
 }
 
-@keyframes explocion4 {
+@keyframes explosion4 {
   0% {
     opacity: .0;
     -webkit-transform: scale(0);

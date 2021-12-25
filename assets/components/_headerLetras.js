@@ -39,7 +39,7 @@ export default class Letras {
         //   }
 
           maquinaEscribir1('Heredia Lucas()', 100, this.letras);
-          maquinaEscribir1('¡Hola! Bienvenido/a a mi pequeño Portafolio.<br/> Me llamo Lucas y soy Desarrollador de Software.<br />Espero sea de tu agrado y disfrutes navegándolo.<br/>¡Un Saludo! Y espero nos veamos pronto.', 100, this.description);
+          maquinaEscribir1('¡Hola! Bienvenido/a a mi pequeño Portafolio.', 50, this.description);
           // maquinaEscribir2('Acerca de Mi', 100, this.titulos);
     }
 };

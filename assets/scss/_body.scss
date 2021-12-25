@@ -5,8 +5,8 @@ $gris: #D9D9D9;
 $rosa: #EEAA7B;
 $sombra: #555555;
 $ancho: 80px;
-$explocion1: explocion1;
-$explocion2: explocion2;
+$explocion1: explosion1;
+$explocion2: explosion2;
 
 
 .cuerpo {
@@ -47,7 +47,7 @@ $explocion2: explocion2;
 
 @media screen and (max-width: 765px){
    .barra {
-       animation: explocion5 3s 5s both;
+       animation: explosion5 3s 5s both;
        width: $ancho + 25px;
        padding-bottom: 20px;
        border-radius: 0px 0px 23px 0px;

@@ -2,14 +2,18 @@
   position: relative;
   z-index: 100;
   .centro__seccion {
+
     .centro__seccion--descripcion {
-      padding: 0 50px;
-      background-color: $naranja;
-      border-radius: 20%;
+      position: relative;
+      z-index: 1000;
+      padding: 0px;
+      background-color: $azul;
+      border-radius: 5px;
+      border: 7px double rgb(233, 233, 233) ;
       color: $gris;
-      box-shadow: 0 0 16px $sombra;
-      animation: explocion5 3s 6s both;
-      transition: 1s;
+      // box-shadow: 0 0 16px $sombra;
+      animation: aparecer 3s 8s both;
+      // transition: 1s;
       &:hover {
         font-size: 110%;
       }
@@ -17,10 +21,10 @@
 
     .centro__seccion--perfil--foto {
       height: 350px;
-      border-radius: 0px 40px 0px 37px;
-      border: 2px solid rgba(255, 255, 255, 0.904);
+      background-color: $naranja;
+      border-radius: 50%;
       box-shadow: 0 0 16px $sombra;
-      animation: explocion3 2s 5s both;
+      animation: aparecer 5s 8s both;
       transition: 1s;
       &:hover {
         font-size: 110%;
@@ -28,7 +32,7 @@
     }
     .centro__seccion--imagenes {
       filter: drop-shadow(0 0 10px $sombra);
-      animation: explocion1 3s 3s both;
+      animation: explosion1 3s 7s both;
 
     //   .centro__seccion--imagen {
 
@@ -38,27 +42,22 @@
 }
   .centro {
     .centro__articulo {
-      .centro__articulo--div--carrusel{
-        animation: explocion2 3s 5s both;
+      .centro__articulo--proyectos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        animation: aparecer 5s 8s both;
 
-        // .carousel-inner {
-        //   img {
-        //     border-radius: 8px;
-        //     border: 2px solid whitesmoke;
-        //   }
-        }
 
-        .carousel-caption{
-          background-color: $azul;
-          border-radius: 0px 40px 0px 37px;
-        }
+        .centro__articulo--proyectos--div{
+          margin: 15px;
+          width: 200px;
+          height: 200px;
+          border-radius: 5px;
+          box-shadow: 0 0 10px  $sombra;
 
-        .centro__articulo--h5{ 
-          color: white;
         }
-        .centro__articulo--p{
-          color: white;
-        }
+      }
       }
     }
   
@@ -73,27 +72,9 @@
             margin: 10px;
             width: 50px;
             height: 50px;
-            animation: explocion1 3s 3s both;
+            animation: explosion1 3s 3s both;
           }
         }
       }
     }
-
-  // .centro {
-  //   .centro__formulario {
-  //     animation: explocion2 3s 5s both;
-  //     .centro__formulario--div {
-  //       border-color: $azul;
-  //       box-shadow: 0 0 10px $sombra;
-
-  //       .form-control {
-  //         border-bottom: $azul;
-  //       }
-  //       .centro__formulario--boton {
-  //         display: block;
-  //         width: 100%;
-  //       }
-  //     }
-  //   }
-  // }
 
