@@ -228,7 +228,7 @@
 .centro .centro__articulo .centro__articulo--proyectos .centro__articulo--proyectos--div a img:hover {
   -webkit-transition: .5s;
   transition: .5s;
-  opacity: .3;
+  opacity: .5;
 }
 
 .centro .centro__seccion .centro__seccion--div {
