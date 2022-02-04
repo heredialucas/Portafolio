@@ -1,47 +1,79 @@
-.cabecera{
-    position:relative;
-    z-index: 200;
+.cabecera {
+  position: relative;
+  z-index: 200;
 }
-.cabecera__div--h1 { 
-    font-size: 70px;
-    color: $naranja;
-    text-shadow: 0 0 3px $sombra;
-    animation: apertura 1s 2.2s both;
+.cabecera__div--h1 {
+  display: inline-block;
+  font-size: 70px;
+  color: transparent;
+  background: linear-gradient(to right, $naranja, $azul);
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: apertura 1s 2.2s both;
+  &:hover {
+    background: linear-gradient(to left, $naranja, $azul);
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
 }
 
-.cabecera__div--h1--p1{
-    text-shadow: 1px 1px 3px $sombra;
+.cabecera__div--h1--p1 {
+  background: linear-gradient(to right, $naranja, $azul);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: 1px 1px 3px $sombra;
 }
 
 .cabecera__div--h4 {
-    color: $naranja;
-    text-shadow: 0 0 2px $sombra;
-    
+  display: inline-block;
+  background: linear-gradient(to right, $naranja, $azul);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
-.cabecera__div--h4--1{
-    margin: 0 5px;
-    animation: explosion1 1.5s 3s both;
+.cabecera__div--h4--1 {
+  margin: 0 5px;
+  animation: explosion1 1.5s 3s both;
+  &:hover {
+    background: linear-gradient(to left, $naranja, $azul);
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
 }
-.cabecera__div--h4--2{
-    margin: 0 5px;
-    animation: explosion1 1.5s 3.7s both;
+.cabecera__div--h4--2 {
+  margin: 0 5px;
+  animation: explosion1 1.5s 3.7s both;
+  &:hover {
+    background: linear-gradient(to left, $naranja, $azul);
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
 }
-.cabecera__div--h4--3{
-    margin: 0 5px;
-    animation: explosion1 1.5s 4.2s both;
+.cabecera__div--h4--3 {
+  margin: 0 5px;
+  animation: explosion1 1.5s 4.2s both;
+  &:hover {
+    background: linear-gradient(to left, $naranja, $azul);
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
 }
-.cabecera__div--h4--4{
-    margin: 0 5px;
-    animation: explosion1 1.5s 4.8s both;
+.cabecera__div--h4--4 {
+  margin: 0 5px;
+  animation: explosion1 1.5s 4.8s both;
+  &:hover {
+    background: linear-gradient(to left, $naranja, $azul);
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
 }
-
 
 @media only screen and (max-width: 766px) {
-    .cabecera__div--h1 {
-        font-size: 50px;
-    }
-    .cabecera__div--h4 {
-        font-size:medium;
-    }
+  .cabecera__div--h1 {
+    font-size: 50px;
+  }
+  .cabecera__div--h4 {
+    font-size: medium;
+  }
 }
-

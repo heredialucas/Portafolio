@@ -6,10 +6,11 @@
       position: relative;
       z-index: 1000;
       padding: 0px;
-      background-color: $azul;
-      border-radius: 5px;
-      border: 7px double rgb(233, 233, 233);
-      color: $gris;
+      height: 150px;
+      background: linear-gradient(to bottom, #fff, $azul, #fff, $naranja, #fff);
+      border-radius: 50%;
+      border: 7px double #fff;
+      color: rgba(0, 0, 0, 0.57);
       // box-shadow: 0 0 16px $sombra;
       animation: aparecer 3s 8s both;
       // transition: 1s;
@@ -41,6 +42,50 @@
 }
 .centro {
   .centro__articulo {
+    .centro__articulo--proyectoDestacado {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: 50px 0;
+      animation: aparecer 3s 8s both;
+
+      .centro__articulo--proyectoDestacado--div {
+        display: flex;
+        height: 60%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        h4 {
+          color: $naranja;
+          font-size: 35px;
+          text-shadow: 0 0 3px 0 $sombra;
+          &:hover {
+            color: $azul;
+            transition: 0.5s;
+          }
+        }
+        p {
+          color: #fff;
+          background: $azul;
+          padding: 15px;
+          border-radius: 5px;
+          font-size: 18px;
+        }
+      }
+      a {
+        img {
+          width: 500px;
+          margin: 30px;
+          box-shadow: 0 0 10px $sombra;
+          border: 2px solid $azul;
+          border-radius: 5px;
+        }
+        img:hover {
+          transition: 0.5s;
+          opacity: 0.5;
+        }
+      }
+    }
     .centro__articulo--proyectos {
       display: flex;
       flex-wrap: wrap;
@@ -62,9 +107,9 @@
             object-fit: cover;
             object-position: center center;
           }
-          img:hover{
-            transition: .5s;
-            opacity: .5;
+          img:hover {
+            transition: 0.5s;
+            opacity: 0.5;
           }
         }
       }
@@ -73,18 +118,53 @@
 }
 
 .centro {
-  .centro__seccion {
+  .centro__seccion1 {
+    .centro__seccion--imagenes {
+      animation: explosion1 3s 3s both;
+
+      img {
+        width: 120px;
+        margin: 2px;
+        border: 5px solid transparent;
+      }
+      img:hover {
+        border: 2px solid $azul;
+        border-radius: 20px;
+        transition: 0.2s;
+      }
+    }
+  }
+  .centro__seccion2 {
     .centro__seccion--div {
       height: 25vh;
       display: flex;
       justify-content: center;
       align-items: flex-end;
+
       .centro__seccion--div--img {
         margin: 10px;
         width: 50px;
         height: 50px;
         animation: explosion1 3s 3s both;
       }
+      .centro__seccion--div--img:hover {
+        cursor: pointer;
+        transition: 0.3s;
+        filter: invert(100);
+        width: 100px;
+        height: 100px;
+      }
     }
+  }
+}
+
+@media only screen and (max-width: 766px) {
+  .centro__articulo--proyectoDestacado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 20px;
+    animation: aparecer 3s 8s both;
   }
 }

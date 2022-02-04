@@ -1,21 +1,26 @@
 .centro__div--titulo {
-        .centro__div--h4 {
-            font-size: 2rem;
-            color: $naranja;
-            text-shadow: 0 0 3px $sombra;
-            animation: explosion1 2s 7s both;
-            .expandir {
-                margin-top: 100px;
-                transition: 1s;
-                &:hover {font-size: 2.5rem;}
-
-            }
-        }
-        .centro__div--hr {
-            color: $azul;
-            width: 80%;
-            margin-left: auto;
-            margin-right: auto;
-            margin-bottom: 5px;
-        }
+  .centro__div--h4 {
+    font-size: 2rem;
+    color: transparent;
+    background: linear-gradient(to top, $naranja, $azul);
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: explosion1 2s 7s both;
+    .expandir {
+      margin-top: 100px;
+      transition: 1s;
+      &:hover {
+        background: linear-gradient(to bottom, $naranja, $azul);
+        background-clip: text;
+        -webkit-background-clip: text;
+      }
+    }
+  }
+  .centro__div--hr {
+    color: $azul;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+  }
 }

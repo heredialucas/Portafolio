@@ -18,6 +18,10 @@
         .barra__div--li--a {
             color: $gris;
             text-shadow: 0 0 10px $sombra;
+            &:hover{
+                transition: .3s;
+                color: $naranja;
+            }
         }
     }
 }
