@@ -106,6 +106,11 @@
 
 .cabecera__div--h4--1 {
   margin: 0 5px;
+  background: -webkit-gradient(linear, left top, right top, from(#E37222), to(#07889B));
+  background: linear-gradient(to right, #E37222, #07889B);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
   -webkit-animation: explosion1 1.5s 3s both;
           animation: explosion1 1.5s 3s both;
 }
@@ -118,6 +123,11 @@
 }
 
 .cabecera__div--h4--2 {
+  background: -webkit-gradient(linear, left top, right top, from(#E37222), to(#07889B));
+  background: linear-gradient(to right, #E37222, #07889B);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
   margin: 0 5px;
   -webkit-animation: explosion1 1.5s 3.7s both;
           animation: explosion1 1.5s 3.7s both;
@@ -131,6 +141,11 @@
 }
 
 .cabecera__div--h4--3 {
+  background: -webkit-gradient(linear, left top, right top, from(#E37222), to(#07889B));
+  background: linear-gradient(to right, #E37222, #07889B);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
   margin: 0 5px;
   -webkit-animation: explosion1 1.5s 4.2s both;
           animation: explosion1 1.5s 4.2s both;
@@ -144,6 +159,11 @@
 }
 
 .cabecera__div--h4--4 {
+  background: -webkit-gradient(linear, left top, right top, from(#E37222), to(#07889B));
+  background: linear-gradient(to right, #E37222, #07889B);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
   margin: 0 5px;
   -webkit-animation: explosion1 1.5s 4.8s both;
           animation: explosion1 1.5s 4.8s both;
@@ -266,7 +286,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 60%;
+  background: #07889B;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -276,26 +296,53 @@
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  padding: 50px;
+  border-radius: 50px;
+  border: 2px solid #fff;
 }
 
 .centro .centro__articulo .centro__articulo--proyectoDestacado .centro__articulo--proyectoDestacado--div h4 {
-  color: #E37222;
+  color: #fff;
   font-size: 35px;
   text-shadow: 0 0 3px 0 #555555;
+  text-decoration: underline;
 }
 
 .centro .centro__articulo .centro__articulo--proyectoDestacado .centro__articulo--proyectoDestacado--div h4:hover {
-  color: #07889B;
+  background: -webkit-gradient(linear, right top, left top, from(#E37222), to(#fff));
+  background: linear-gradient(to left, #E37222, #fff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  text-decoration: underline;
 }
 
 .centro .centro__articulo .centro__articulo--proyectoDestacado .centro__articulo--proyectoDestacado--div p {
   color: #fff;
-  background: #07889B;
   padding: 15px;
   border-radius: 5px;
   font-size: 18px;
+  margin: 0;
+}
+
+.centro .centro__articulo .centro__articulo--proyectoDestacado .centro__articulo--proyectoDestacado--div ul {
+  color: #fff;
+  width: 100%;
+  margin: 0;
+}
+
+.centro .centro__articulo .centro__articulo--proyectoDestacado .centro__articulo--proyectoDestacado--div ul li {
+  margin-left: 50px;
+  color: #fff;
+  background: #07889B;
+}
+
+.centro .centro__articulo .centro__articulo--proyectoDestacado .centro__articulo--proyectoDestacado--div ul li span {
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 2px;
 }
 
 .centro .centro__articulo .centro__articulo--proyectoDestacado a img {

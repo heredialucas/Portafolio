@@ -34,6 +34,10 @@
 }
 .cabecera__div--h4--1 {
   margin: 0 5px;
+  background: linear-gradient(to right, $naranja, $azul);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
   animation: explosion1 1.5s 3s both;
   &:hover {
     background: linear-gradient(to left, $naranja, $azul);
@@ -42,6 +46,10 @@
   }
 }
 .cabecera__div--h4--2 {
+  background: linear-gradient(to right, $naranja, $azul);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
   margin: 0 5px;
   animation: explosion1 1.5s 3.7s both;
   &:hover {
@@ -51,6 +59,10 @@
   }
 }
 .cabecera__div--h4--3 {
+  background: linear-gradient(to right, $naranja, $azul);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
   margin: 0 5px;
   animation: explosion1 1.5s 4.2s both;
   &:hover {
@@ -60,6 +72,10 @@
   }
 }
 .cabecera__div--h4--4 {
+  background: linear-gradient(to right, $naranja, $azul);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
   margin: 0 5px;
   animation: explosion1 1.5s 4.8s both;
   &:hover {
