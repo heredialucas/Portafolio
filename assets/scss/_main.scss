@@ -158,13 +158,31 @@
   }
 }
 
-@media only screen and (max-width: 766px) {
-  .centro__articulo--proyectoDestacado {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 50px 20px;
-    animation: aparecer 3s 8s both;
+@media screen and (max-width: 766px) {
+  .centro{
+    .centro__articulo{
+      .centro__articulo--proyectoDestacado {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .centro__articulo--proyectoDestacado--div {
+          width: 80%;
+          text-align: center;
+          h4{
+            font-size: 25px;
+          }
+          p{
+            font-size: 15px;
+          }
+        }
+
+        .a{
+          .img{
+            width: 400px;
+          }
+        }
+      }
+    }
   }
 }

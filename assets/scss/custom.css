@@ -401,8 +401,8 @@
   height: 100px;
 }
 
-@media only screen and (max-width: 766px) {
-  .centro__articulo--proyectoDestacado {
+@media screen and (max-width: 766px) {
+  .centro .centro__articulo .centro__articulo--proyectoDestacado {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -416,9 +416,19 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin: 50px 20px;
-    -webkit-animation: aparecer 3s 8s both;
-            animation: aparecer 3s 8s both;
+  }
+  .centro .centro__articulo .centro__articulo--proyectoDestacado .centro__articulo--proyectoDestacado--div {
+    width: 80%;
+    text-align: center;
+  }
+  .centro .centro__articulo .centro__articulo--proyectoDestacado .centro__articulo--proyectoDestacado--div h4 {
+    font-size: 25px;
+  }
+  .centro .centro__articulo .centro__articulo--proyectoDestacado .centro__articulo--proyectoDestacado--div p {
+    font-size: 15px;
+  }
+  .centro .centro__articulo .centro__articulo--proyectoDestacado .a .img {
+    width: 400px;
   }
 }
 
