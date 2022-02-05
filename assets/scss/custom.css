@@ -1,4 +1,5 @@
 .cuerpo {
+  width: 100vw;
   background-color: #D9D9D9;
   font-family: "Hammersmith One", "sans-serif";
   margin-left: auto;
@@ -488,7 +489,7 @@
     font-weight: 500;
   }
   .centro .centro__articulo .centro__articulo--proyectoDestacado .a .img {
-    width: 400px;
+    width: 300px;
   }
 }
 
