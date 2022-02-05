@@ -466,13 +466,26 @@
   }
   .centro .centro__articulo .centro__articulo--proyectoDestacado .centro__articulo--proyectoDestacado--div {
     width: 80%;
+    padding: 20px;
     text-align: center;
   }
   .centro .centro__articulo .centro__articulo--proyectoDestacado .centro__articulo--proyectoDestacado--div h4 {
     font-size: 25px;
   }
   .centro .centro__articulo .centro__articulo--proyectoDestacado .centro__articulo--proyectoDestacado--div p {
-    font-size: 15px;
+    padding: 0;
+    font-size: 11px;
+  }
+  .centro .centro__articulo .centro__articulo--proyectoDestacado .centro__articulo--proyectoDestacado--div ul {
+    padding-left: 5px;
+  }
+  .centro .centro__articulo .centro__articulo--proyectoDestacado .centro__articulo--proyectoDestacado--div ul li {
+    font-size: 11px;
+    margin: 0;
+  }
+  .centro .centro__articulo .centro__articulo--proyectoDestacado .centro__articulo--proyectoDestacado--div ul li span {
+    font-size: 13px;
+    font-weight: 500;
   }
   .centro .centro__articulo .centro__articulo--proyectoDestacado .a .img {
     width: 400px;
